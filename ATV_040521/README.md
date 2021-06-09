@@ -43,7 +43,7 @@ b) console.log(soma(1, "2"));
 
 c) console.log(soma(1));
 
-NaN Not-A-Number
+NaN = Not-A-Number
 
 ## 3) Crie uma enum com as siglas dos estados “PI”, “CE”, “MA” e implemente as duas
 alternativas abaixo:
