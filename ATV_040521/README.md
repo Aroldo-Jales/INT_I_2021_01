@@ -45,8 +45,7 @@ c) console.log(soma(1));
 
 NaN = Not-A-Number
 
-## 3) Crie uma enum com as siglas dos estados “PI”, “CE”, “MA” e implemente as duas
-alternativas abaixo:
+## 3) Crie uma enum com as siglas dos estados “PI”, “CE”, “MA” e implemente as duas alternativas abaixo:
 
 a) Crie um laço usando for para imprimir esses valores;
 
