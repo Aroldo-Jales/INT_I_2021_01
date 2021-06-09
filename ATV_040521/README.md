@@ -1,9 +1,9 @@
-## Curso: Análise e Desenvolvimento de Sistemas
-## Disciplina: Programação para Internet I 2021.1
-## Professor(a): Ely da Silva Miranda
-## Aluno: Aroldo Lenon Jales dos Santos
+Curso: Análise e Desenvolvimento de Sistemas
+Disciplina: Programação para Internet I 2021.1
+Professor(a): Ely da Silva Miranda
+Aluno: Aroldo Lenon Jales dos Santos
 
-Atividade 07 - (04.05.21)
+# Atividade 07 - (04.05.21)
 
 ## 1) Verifique nas alternativas abaixo quais compilam ou não. Explique o motivo:
 
