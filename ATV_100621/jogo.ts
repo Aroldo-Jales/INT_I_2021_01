@@ -77,6 +77,17 @@ class Cavaleiro extends Soldado {
     atacar(p: Personagem) {
         p.defenderAtaque(this.forcataque * 2);
     }
+
+    defenderAtaque(valor: number): void {
+        valor = valor / 3;
+        let v = this.energia - valor;
+
+        if (v < 0) {
+            this.energia = 0;
+        } else {
+            this.energia = v;
+        }
+    }
 }
 
 class Jogo {
@@ -148,9 +159,9 @@ class Jogo {
 }
 
 // CRIAÇÃO DOS PERSONAGENS
-let c1 = new Cavaleiro(1, 'Geralt', 100, 10);
-let s1 = new Soldado(2, 'Zoltan', 100, 5);
-let s2 = new Soldado(3, 'Vernom', 100, 5);
+let c1 = new Cavaleiro(1, 'Geralt', 100, 20);
+let s1 = new Soldado(2, 'Zoltan', 100, 10);
+let s2 = new Soldado(3, 'Vernom', 100, 10);
 let p1 = new Personagem(4, 'Dijkstra', 100);
 
 // NOVO JOGO
@@ -173,7 +184,7 @@ function rodada(): void {
 }
 
 // BATALHA 
-for (let i = 0 ; i < 4; i++){
+for (let i = 0 ; i < 3; i++){
     rodada()
     j1.avaliarbatalha()
 }
